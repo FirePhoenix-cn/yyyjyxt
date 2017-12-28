@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vxO-Es-RG5">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Root Controller-->
+        <scene sceneID="uiG-Df-SSw">
+            <objects>
+                <tabBarController storyboardIdentifier="CYRootController" id="vxO-Es-RG5" customClass="CYRootController" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="e0M-3x-b9x">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VrG-2X-QKq" kind="relationship" relationship="viewControllers" id="e7b-Ke-ipS"/>
+                        <segue destination="bwr-0T-6gE" kind="relationship" relationship="viewControllers" id="FGh-Dt-n3H"/>
+                        <segue destination="cDn-zP-Hmu" kind="relationship" relationship="viewControllers" id="pZ8-0l-bCP"/>
+                        <segue destination="IE5-2W-NYE" kind="relationship" relationship="viewControllers" id="INj-6z-kTm"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d22-d6-KfU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-223" y="-306"/>
+        </scene>
+        <!--全部课程-->
+        <scene sceneID="6gC-Tq-cID">
+            <objects>
+                <navigationController title="全部课程" id="VrG-2X-QKq" customClass="CYAllCourseBaseController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="1" title="" image="qbkc1.png" landscapeImage="qbkc1.png" largeContentSizeImage="qbkc1.png" selectedImage="qbkc2.png" id="TFn-oD-tNE"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="biE-4i-hf9">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVa-sz-zHZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="489" y="-1015"/>
+        </scene>
+        <!--我的课程-->
+        <scene sceneID="hRr-WT-ZUZ">
+            <objects>
+                <navigationController title="我的课程" id="bwr-0T-6gE" customClass="CYMYCourseBaseController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="2" title="" image="wdkc1.png" landscapeImage="wdkc1.png" largeContentSizeImage="wdkc1.png" selectedImage="wdkc2.png" id="FLH-fL-JlR">
+                        <inset key="largeContentSizeImageInsets" minX="0.0" minY="1" maxX="0.0" maxY="0.0"/>
+                    </tabBarItem>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="9mA-MZ-5Eb">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yLz-T6-Ewz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="577" y="177"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="VA8-pp-hoU">
+            <objects>
+                <navigationController title="我的" navigationBarHidden="YES" id="IE5-2W-NYE" customClass="CYMyInfoBaseController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="4" title="" image="wd1.png" landscapeImage="wd1.png" largeContentSizeImage="wd1.png" selectedImage="wd2.png" id="DQ7-6N-4Di"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="Rru-sW-dXd">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gDk-Vj-5jy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1246" y="353"/>
+        </scene>
+        <!--在线测试-->
+        <scene sceneID="ktV-ZR-Jig">
+            <objects>
+                <navigationController title="在线测试" id="cDn-zP-Hmu" customClass="CYExamBaseController" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" tag="3" title="" image="zxcs1.png" landscapeImage="zxcs1.png" largeContentSizeImage="zxcs1.png" selectedImage="zxcs2.png" id="LWa-uS-zZ0"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="K1w-kg-i9C">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oos-xo-r1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="490" y="940"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qbkc1.png" width="44" height="39"/>
+        <image name="qbkc2.png" width="44" height="39"/>
+        <image name="wd1.png" width="44" height="39"/>
+        <image name="wd2.png" width="44" height="39"/>
+        <image name="wdkc1.png" width="44" height="39"/>
+        <image name="wdkc2.png" width="44" height="39"/>
+        <image name="zxcs1.png" width="44" height="39"/>
+        <image name="zxcs2.png" width="44" height="39"/>
+    </resources>
+</document>
