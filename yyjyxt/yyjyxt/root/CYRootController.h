@@ -13,9 +13,11 @@ typedef NS_ENUM(NSUInteger, LoginStatus) {
     LoginStatusLoginNone,//未登录
     LoginStatusLoginTour,//游客登录
 };
-
+@class UserInfoModel;
 @interface CYRootController : UITabBarController
 
 -(LoginStatus)LoginStatus;
-
+-(void)setUserInfo:(NSDictionary*)json;
+-(NSDictionary*)getUserInfo;
+-(UserInfoModel*)userinfoModel;
 @end

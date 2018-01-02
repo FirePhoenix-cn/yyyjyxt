@@ -9,6 +9,10 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+#import "AppDelegate.h"
+
+#define MainScreenSize [UIScreen mainScreen].bounds.size
+
 #define MainScreenHeight [UIScreen mainScreen].bounds.size.height
 
 #define MainScreenWidth [UIScreen mainScreen].bounds.size.width

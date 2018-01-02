@@ -9,6 +9,10 @@
 #import "MineController.h"
 #import "CYRootController.h"
 #import "LoginController.h"
+#import "UserInfoModel.h"
+#import "SettingController.h"
+#import "RegisterFaceController.h"
+#import "PersonalInfoController.h"
 
 @interface MineController ()
 @property (weak, nonatomic) IBOutlet UIButton *settingBtn;
@@ -16,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *topBackgroud;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIButton *loginBtn;
+@property (weak, nonatomic) IBOutlet UILabel *userName;
 @end
 
 @implementation MineController
@@ -27,10 +32,11 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated{
-    [super viewWillAppear:animated];
-    self.navigationController.navigationBarHidden = YES;
+    [self.navigationController setNavigationBarHidden:YES animated:YES];
     self.tabBarController.tabBar.hidden = NO;
     self.tabBarController.tabBar.translucent = NO;
+    [super viewWillAppear:animated];
+    [self SyncLoginStatus];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -55,6 +61,10 @@
         {
             _loginBtn.hidden = YES;
             _settingBtn.hidden = NO;
+            _userName.hidden = NO;
+            _userName.text = [self.myRootController userinfoModel].uname;
+            _userface.image = [UIImage imageNamed:@"defaultuserface.jpg"];
+            _userface.image = [UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:[self.myRootController userinfoModel].userface]]];
         }
             break;
             
@@ -62,6 +72,7 @@
         {
             _loginBtn.hidden = NO;
             _settingBtn.hidden = YES;
+            _userName.hidden = YES;
             _userface.image = [UIImage imageNamed:@"defaultuserface.jpg"];
         }
             break;
@@ -139,14 +150,17 @@
             
         }
         if (button.tag == 7) {
-            
+            RegisterFaceController *vc = [[RegisterFaceController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
         }
     }
 }
-
-
-- (IBAction)clickSettingBtn:(UIButton *)sender {
+- (IBAction)clickUserface:(UIButton *)sender {
+    UIStoryboard *sb = [UIStoryboard storyboardWithName:@"Mine" bundle:nil];
+    UIViewController *vc = [sb instantiateViewControllerWithIdentifier:NSStringFromClass([PersonalInfoController class])];
+    [self.navigationController pushViewController:vc animated:YES];
 }
+
 - (IBAction)clickLoginBtn:(UIButton *)sender {
     LoginController *vc = [LoginController new];
     [self.navigationController pushViewController:vc animated:YES];

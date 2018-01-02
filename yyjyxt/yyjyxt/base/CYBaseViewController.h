@@ -12,6 +12,7 @@
 @interface CYBaseViewController : UIViewController
 @property(nonatomic,strong)CYRootController *myRootController;
 @property(nonatomic, strong)CYApi *api;
--(void)addCache:(NSDictionary*)dic path:(NSString*)CachePath name:(NSString*)CacheName;
--(NSDictionary*)getAllCacheWithPath:(NSString*)CachePath name:(NSString*)CacheName;
+- (NSInteger)fileSizeWithPath:(NSString *)path;
+-(UIBarButtonItem*)baseBackButtonItemWithSel:(SEL)sel target:(id)targert;
+-(UIBarButtonItem*)baseTitleButtonItemWithTitle:(NSString*)title Sel:(SEL)sel target:(id)target;
 @end

@@ -10,9 +10,6 @@
 #import <AFNetworking.h>
 #import "PublicVarible.h"
 
-#define BaseUrl @"ycjy.cqmxcx.cn:8012"
-#define API_BASE_URL [NSString stringWithFormat:@"http://%@/index.php?app=api",BaseUrl]
-
 @interface CYApi()
 @property(nonatomic, strong)AFHTTPSessionManager *sessionManager;
 @end
@@ -44,6 +41,14 @@ static CYApi *__privatecyapi = nil;
     return [API_BASE_URL stringByAppendingFormat:@"&mod=%@&act=%@",mod,act];
 }
 
+-(NSURLSessionDataTask *)sendUserFace:(NSDictionary *)params
+       constructing:(void (^)(id <AFMultipartFormData> formData))block
+            success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+            failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Login act:API_Mod_Login_login];
+    return [_sessionManager POST:scheme parameters:params constructingBodyWithBlock:block progress:nil success:success failure:failure];
+}
 - (NSURLSessionDataTask *)LoginWithParameters:(id)parameters
                                       success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
                                       failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
@@ -52,4 +57,46 @@ static CYApi *__privatecyapi = nil;
     return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
 }
 
+- (NSURLSessionDataTask *)RegistWithParameters:(id)parameters
+                                      success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                      failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Login act:API_Mod_Login_regist];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
+- (NSURLSessionDataTask *)RegistFaceWithParameters:(id)parameters
+                                       success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                       failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Youtu act:API_Mod_Youtu_newperson];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
+- (NSURLSessionDataTask *)ReRegistFaceWithParameters:(id)parameters
+                                       success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                       failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Youtu act:API_Mod_Youtu_reFace];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
+- (NSURLSessionDataTask *)syncUserWithParameters:(id)parameters
+                                             success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                             failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Youtu act:API_Mod_Youtu_syncUser];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
+- (NSURLSessionDataTask *)getSystimeWithParameters:(id)parameters
+                                         success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                         failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Youtu act:API_Mod_Youtu_getTime];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
+- (NSURLSessionDataTask *)getVersionWithParameters:(id)parameters
+                                           success:(void (^)(NSURLSessionDataTask *task, id responseObject))success
+                                           failure:(void (^)(NSURLSessionDataTask *task, NSError *error))failure
+{
+    NSString *scheme = [self urlStringWithMode:API_Mod_Youtu act:API_Mod_Youtu_version];
+    return [_sessionManager POST:scheme parameters:parameters progress:nil success:success failure:failure];
+}
 @end

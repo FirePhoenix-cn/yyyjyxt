@@ -20,9 +20,20 @@
 
 //api
 
+#define BaseUrl @"ycjy.cqmxcx.cn:8012"
+#define API_BASE_URL [NSString stringWithFormat:@"http://%@/index.php?app=api",BaseUrl]
+
 #define API_Mod_Login @"Login"
+
 #define API_Mod_Login_login @"login"
+#define API_Mod_Login_regist @"app_regist"
 
 
+#define API_Mod_Youtu @"Youtu"
+#define API_Mod_Youtu_reFace @"reFace"
+#define API_Mod_Youtu_newperson @"newperson"
+#define API_Mod_Youtu_syncUser @"syncUser"
+#define API_Mod_Youtu_getTime @"getTime"
+#define API_Mod_Youtu_version @"version"
 
 #endif /* Header_h */

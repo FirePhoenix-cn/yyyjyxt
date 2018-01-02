@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551D26BB1FF5D8F700CD41EE /* RigisterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26BA1FF5D8F700CD41EE /* RigisterController.m */; };
+		551D26BE1FF5ECA200CD41EE /* SettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26BD1FF5ECA200CD41EE /* SettingController.m */; };
+		551D26C11FF5ED2300CD41EE /* PersonalInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26C01FF5ED2300CD41EE /* PersonalInfoController.m */; };
+		551D26C41FF5FF7F00CD41EE /* RegisterFaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26C31FF5FF7F00CD41EE /* RegisterFaceController.m */; };
+		551D26C71FF600FF00CD41EE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26C61FF600FE00CD41EE /* NSData+Base64.m */; };
+		551D26CE1FF6010A00CD41EE /* UIImage+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26C91FF6010900CD41EE /* UIImage+Custom.m */; };
+		551D26CF1FF6010A00CD41EE /* UILabel+AdapWidth.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26CC1FF6010900CD41EE /* UILabel+AdapWidth.m */; };
+		551D26D01FF6010A00CD41EE /* UIImage+ReByte.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26CD1FF6010A00CD41EE /* UIImage+ReByte.m */; };
+		551D26D31FF6033D00CD41EE /* baseback@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 551D26D21FF6033D00CD41EE /* baseback@2x.png */; };
+		551D26DA1FF6051300CD41EE /* blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 551D26D91FF6051300CD41EE /* blank.png */; };
+		551D26F81FF6062D00CD41EE /* LLSimpleCamera+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26DD1FF6062D00CD41EE /* LLSimpleCamera+Helper.m */; };
+		551D26F91FF6062D00CD41EE /* LLSimpleCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26DF1FF6062D00CD41EE /* LLSimpleCamera.m */; };
+		551D26FA1FF6062D00CD41EE /* PureCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 551D26E01FF6062D00CD41EE /* PureCamera.bundle */; };
+		551D26FB1FF6062D00CD41EE /* PureCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26E21FF6062D00CD41EE /* PureCamera.m */; };
+		551D26FC1FF6062D00CD41EE /* TOActivityCroppedImageProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26E41FF6062D00CD41EE /* TOActivityCroppedImageProvider.m */; };
+		551D26FD1FF6062D00CD41EE /* TOCropOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26E61FF6062D00CD41EE /* TOCropOverlayView.m */; };
+		551D26FE1FF6062D00CD41EE /* TOCroppedImageAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26E81FF6062D00CD41EE /* TOCroppedImageAttributes.m */; };
+		551D26FF1FF6062D00CD41EE /* TOCropScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26EA1FF6062D00CD41EE /* TOCropScrollView.m */; };
+		551D27001FF6062D00CD41EE /* TOCropToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26EC1FF6062D00CD41EE /* TOCropToolbar.m */; };
+		551D27011FF6062D00CD41EE /* TOCropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26EE1FF6062D00CD41EE /* TOCropView.m */; };
+		551D27021FF6062D00CD41EE /* TOCropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26F01FF6062D00CD41EE /* TOCropViewController.m */; };
+		551D27031FF6062D00CD41EE /* TOCropViewControllerLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 551D26F11FF6062D00CD41EE /* TOCropViewControllerLocalizable.strings */; };
+		551D27041FF6062D00CD41EE /* TOCropViewControllerTransitioning.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26F31FF6062D00CD41EE /* TOCropViewControllerTransitioning.m */; };
+		551D27051FF6062D00CD41EE /* UIImage+CropRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26F51FF6062D00CD41EE /* UIImage+CropRotate.m */; };
+		551D27061FF6062D00CD41EE /* UIImage+FixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D26F71FF6062D00CD41EE /* UIImage+FixOrientation.m */; };
+		551D27081FF6174100CD41EE /* CYErrorType.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D27071FF6174100CD41EE /* CYErrorType.m */; };
+		551D270B1FF61B9900CD41EE /* came2.png in Resources */ = {isa = PBXBuildFile; fileRef = 551D270A1FF61B9900CD41EE /* came2.png */; };
+		551D27131FF6201700CD41EE /* ELAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D270E1FF6201700CD41EE /* ELAlertView.m */; };
+		551D27141FF6201700CD41EE /* NYAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D27101FF6201700CD41EE /* NYAlertView.m */; };
+		551D27151FF6201700CD41EE /* UIView+HitTestEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 551D27121FF6201700CD41EE /* UIView+HitTestEdgeInsets.m */; };
 		55A6EF761FF4C0DB00A771C7 /* ksap.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF6C1FF4C0DB00A771C7 /* ksap.png */; };
 		55A6EF771FF4C0DB00A771C7 /* qbwd.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF6D1FF4C0DB00A771C7 /* qbwd.png */; };
 		55A6EF781FF4C0DB00A771C7 /* rlsm.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF6E1FF4C0DB00A771C7 /* rlsm.png */; };
@@ -21,7 +51,7 @@
 		55A6EF851FF4D32600A771C7 /* defaultuserface.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF841FF4D32600A771C7 /* defaultuserface.jpg */; };
 		55A6EF8A1FF4D5EB00A771C7 /* UserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6EF891FF4D5EB00A771C7 /* UserInfoModel.m */; };
 		55A6EF8D1FF4D6A200A771C7 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6EF8C1FF4D6A200A771C7 /* LoginController.m */; };
-		55A6EF8F1FF4DC4700A771C7 /* guanbifanhui.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF8E1FF4DC4700A771C7 /* guanbifanhui.png */; };
+		55A6EF8F1FF4DC4700A771C7 /* guanbifanhui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF8E1FF4DC4700A771C7 /* guanbifanhui@2x.png */; };
 		55A6EF921FF4E33500A771C7 /* CYButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A6EF901FF4E33500A771C7 /* CYButton.m */; };
 		55A6EF951FF4E43A00A771C7 /* iconfont-shouji@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF931FF4E43A00A771C7 /* iconfont-shouji@2x.png */; };
 		55A6EF961FF4E43A00A771C7 /* iconfont-mima@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A6EF941FF4E43A00A771C7 /* iconfont-mima@2x.png */; };
@@ -59,6 +89,61 @@
 
 /* Begin PBXFileReference section */
 		5347E3F5986824581E4305AB /* Pods-yyjyxt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yyjyxt.release.xcconfig"; path = "Pods/Target Support Files/Pods-yyjyxt/Pods-yyjyxt.release.xcconfig"; sourceTree = "<group>"; };
+		551D26B91FF5D8F700CD41EE /* RigisterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RigisterController.h; sourceTree = "<group>"; };
+		551D26BA1FF5D8F700CD41EE /* RigisterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RigisterController.m; sourceTree = "<group>"; };
+		551D26BC1FF5ECA200CD41EE /* SettingController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingController.h; sourceTree = "<group>"; };
+		551D26BD1FF5ECA200CD41EE /* SettingController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingController.m; sourceTree = "<group>"; };
+		551D26BF1FF5ED2300CD41EE /* PersonalInfoController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalInfoController.h; sourceTree = "<group>"; };
+		551D26C01FF5ED2300CD41EE /* PersonalInfoController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalInfoController.m; sourceTree = "<group>"; };
+		551D26C21FF5FF7F00CD41EE /* RegisterFaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegisterFaceController.h; sourceTree = "<group>"; };
+		551D26C31FF5FF7F00CD41EE /* RegisterFaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegisterFaceController.m; sourceTree = "<group>"; };
+		551D26C51FF600FE00CD41EE /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		551D26C61FF600FE00CD41EE /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		551D26C81FF6010900CD41EE /* UIImage+ReByte.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ReByte.h"; sourceTree = "<group>"; };
+		551D26C91FF6010900CD41EE /* UIImage+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Custom.m"; sourceTree = "<group>"; };
+		551D26CA1FF6010900CD41EE /* UIImage+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Custom.h"; sourceTree = "<group>"; };
+		551D26CB1FF6010900CD41EE /* UILabel+AdapWidth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+AdapWidth.h"; sourceTree = "<group>"; };
+		551D26CC1FF6010900CD41EE /* UILabel+AdapWidth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+AdapWidth.m"; sourceTree = "<group>"; };
+		551D26CD1FF6010A00CD41EE /* UIImage+ReByte.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ReByte.m"; sourceTree = "<group>"; };
+		551D26D21FF6033D00CD41EE /* baseback@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "baseback@2x.png"; sourceTree = "<group>"; };
+		551D26D91FF6051300CD41EE /* blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blank.png; sourceTree = "<group>"; };
+		551D26DC1FF6062D00CD41EE /* LLSimpleCamera+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LLSimpleCamera+Helper.h"; sourceTree = "<group>"; };
+		551D26DD1FF6062D00CD41EE /* LLSimpleCamera+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LLSimpleCamera+Helper.m"; sourceTree = "<group>"; };
+		551D26DE1FF6062D00CD41EE /* LLSimpleCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLSimpleCamera.h; sourceTree = "<group>"; };
+		551D26DF1FF6062D00CD41EE /* LLSimpleCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLSimpleCamera.m; sourceTree = "<group>"; };
+		551D26E01FF6062D00CD41EE /* PureCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = PureCamera.bundle; sourceTree = "<group>"; };
+		551D26E11FF6062D00CD41EE /* PureCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureCamera.h; sourceTree = "<group>"; };
+		551D26E21FF6062D00CD41EE /* PureCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PureCamera.m; sourceTree = "<group>"; };
+		551D26E31FF6062D00CD41EE /* TOActivityCroppedImageProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOActivityCroppedImageProvider.h; sourceTree = "<group>"; };
+		551D26E41FF6062D00CD41EE /* TOActivityCroppedImageProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOActivityCroppedImageProvider.m; sourceTree = "<group>"; };
+		551D26E51FF6062D00CD41EE /* TOCropOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropOverlayView.h; sourceTree = "<group>"; };
+		551D26E61FF6062D00CD41EE /* TOCropOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropOverlayView.m; sourceTree = "<group>"; };
+		551D26E71FF6062D00CD41EE /* TOCroppedImageAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCroppedImageAttributes.h; sourceTree = "<group>"; };
+		551D26E81FF6062D00CD41EE /* TOCroppedImageAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCroppedImageAttributes.m; sourceTree = "<group>"; };
+		551D26E91FF6062D00CD41EE /* TOCropScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropScrollView.h; sourceTree = "<group>"; };
+		551D26EA1FF6062D00CD41EE /* TOCropScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropScrollView.m; sourceTree = "<group>"; };
+		551D26EB1FF6062D00CD41EE /* TOCropToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropToolbar.h; sourceTree = "<group>"; };
+		551D26EC1FF6062D00CD41EE /* TOCropToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropToolbar.m; sourceTree = "<group>"; };
+		551D26ED1FF6062D00CD41EE /* TOCropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropView.h; sourceTree = "<group>"; };
+		551D26EE1FF6062D00CD41EE /* TOCropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropView.m; sourceTree = "<group>"; };
+		551D26EF1FF6062D00CD41EE /* TOCropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewController.h; sourceTree = "<group>"; };
+		551D26F01FF6062D00CD41EE /* TOCropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewController.m; sourceTree = "<group>"; };
+		551D26F11FF6062D00CD41EE /* TOCropViewControllerLocalizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = TOCropViewControllerLocalizable.strings; sourceTree = "<group>"; };
+		551D26F21FF6062D00CD41EE /* TOCropViewControllerTransitioning.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCropViewControllerTransitioning.h; sourceTree = "<group>"; };
+		551D26F31FF6062D00CD41EE /* TOCropViewControllerTransitioning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCropViewControllerTransitioning.m; sourceTree = "<group>"; };
+		551D26F41FF6062D00CD41EE /* UIImage+CropRotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CropRotate.h"; sourceTree = "<group>"; };
+		551D26F51FF6062D00CD41EE /* UIImage+CropRotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CropRotate.m"; sourceTree = "<group>"; };
+		551D26F61FF6062D00CD41EE /* UIImage+FixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+FixOrientation.h"; sourceTree = "<group>"; };
+		551D26F71FF6062D00CD41EE /* UIImage+FixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+FixOrientation.m"; sourceTree = "<group>"; };
+		551D27071FF6174100CD41EE /* CYErrorType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYErrorType.m; sourceTree = "<group>"; };
+		551D27091FF6174D00CD41EE /* CYErrorType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYErrorType.h; sourceTree = "<group>"; };
+		551D270A1FF61B9900CD41EE /* came2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = came2.png; sourceTree = "<group>"; };
+		551D270D1FF6201700CD41EE /* ELAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAlertView.h; sourceTree = "<group>"; };
+		551D270E1FF6201700CD41EE /* ELAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAlertView.m; sourceTree = "<group>"; };
+		551D270F1FF6201700CD41EE /* NYAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYAlertView.h; sourceTree = "<group>"; };
+		551D27101FF6201700CD41EE /* NYAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYAlertView.m; sourceTree = "<group>"; };
+		551D27111FF6201700CD41EE /* UIView+HitTestEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HitTestEdgeInsets.h"; sourceTree = "<group>"; };
+		551D27121FF6201700CD41EE /* UIView+HitTestEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HitTestEdgeInsets.m"; sourceTree = "<group>"; };
 		55A6EF6C1FF4C0DB00A771C7 /* ksap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ksap.png; sourceTree = "<group>"; };
 		55A6EF6D1FF4C0DB00A771C7 /* qbwd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qbwd.png; sourceTree = "<group>"; };
 		55A6EF6E1FF4C0DB00A771C7 /* rlsm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rlsm.png; sourceTree = "<group>"; };
@@ -76,7 +161,7 @@
 		55A6EF891FF4D5EB00A771C7 /* UserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfoModel.m; sourceTree = "<group>"; };
 		55A6EF8B1FF4D6A200A771C7 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
 		55A6EF8C1FF4D6A200A771C7 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
-		55A6EF8E1FF4DC4700A771C7 /* guanbifanhui.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guanbifanhui.png; sourceTree = "<group>"; };
+		55A6EF8E1FF4DC4700A771C7 /* guanbifanhui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "guanbifanhui@2x.png"; sourceTree = "<group>"; };
 		55A6EF901FF4E33500A771C7 /* CYButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CYButton.m; sourceTree = "<group>"; };
 		55A6EF911FF4E33500A771C7 /* CYButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CYButton.h; sourceTree = "<group>"; };
 		55A6EF931FF4E43A00A771C7 /* iconfont-shouji@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconfont-shouji@2x.png"; sourceTree = "<group>"; };
@@ -151,12 +236,70 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		551D26D11FF6033D00CD41EE /* base */ = {
+			isa = PBXGroup;
+			children = (
+				551D270A1FF61B9900CD41EE /* came2.png */,
+				551D26D91FF6051300CD41EE /* blank.png */,
+				551D26D21FF6033D00CD41EE /* baseback@2x.png */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		551D26DB1FF6062D00CD41EE /* PureCamera */ = {
+			isa = PBXGroup;
+			children = (
+				551D26DC1FF6062D00CD41EE /* LLSimpleCamera+Helper.h */,
+				551D26DD1FF6062D00CD41EE /* LLSimpleCamera+Helper.m */,
+				551D26DE1FF6062D00CD41EE /* LLSimpleCamera.h */,
+				551D26DF1FF6062D00CD41EE /* LLSimpleCamera.m */,
+				551D26E01FF6062D00CD41EE /* PureCamera.bundle */,
+				551D26E11FF6062D00CD41EE /* PureCamera.h */,
+				551D26E21FF6062D00CD41EE /* PureCamera.m */,
+				551D26E31FF6062D00CD41EE /* TOActivityCroppedImageProvider.h */,
+				551D26E41FF6062D00CD41EE /* TOActivityCroppedImageProvider.m */,
+				551D26E51FF6062D00CD41EE /* TOCropOverlayView.h */,
+				551D26E61FF6062D00CD41EE /* TOCropOverlayView.m */,
+				551D26E71FF6062D00CD41EE /* TOCroppedImageAttributes.h */,
+				551D26E81FF6062D00CD41EE /* TOCroppedImageAttributes.m */,
+				551D26E91FF6062D00CD41EE /* TOCropScrollView.h */,
+				551D26EA1FF6062D00CD41EE /* TOCropScrollView.m */,
+				551D26EB1FF6062D00CD41EE /* TOCropToolbar.h */,
+				551D26EC1FF6062D00CD41EE /* TOCropToolbar.m */,
+				551D26ED1FF6062D00CD41EE /* TOCropView.h */,
+				551D26EE1FF6062D00CD41EE /* TOCropView.m */,
+				551D26EF1FF6062D00CD41EE /* TOCropViewController.h */,
+				551D26F01FF6062D00CD41EE /* TOCropViewController.m */,
+				551D26F11FF6062D00CD41EE /* TOCropViewControllerLocalizable.strings */,
+				551D26F21FF6062D00CD41EE /* TOCropViewControllerTransitioning.h */,
+				551D26F31FF6062D00CD41EE /* TOCropViewControllerTransitioning.m */,
+				551D26F41FF6062D00CD41EE /* UIImage+CropRotate.h */,
+				551D26F51FF6062D00CD41EE /* UIImage+CropRotate.m */,
+				551D26F61FF6062D00CD41EE /* UIImage+FixOrientation.h */,
+				551D26F71FF6062D00CD41EE /* UIImage+FixOrientation.m */,
+			);
+			path = PureCamera;
+			sourceTree = "<group>";
+		};
+		551D270C1FF6201700CD41EE /* ELAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				551D270D1FF6201700CD41EE /* ELAlertView.h */,
+				551D270E1FF6201700CD41EE /* ELAlertView.m */,
+				551D270F1FF6201700CD41EE /* NYAlertView.h */,
+				551D27101FF6201700CD41EE /* NYAlertView.m */,
+				551D27111FF6201700CD41EE /* UIView+HitTestEdgeInsets.h */,
+				551D27121FF6201700CD41EE /* UIView+HitTestEdgeInsets.m */,
+			);
+			path = ELAlertView;
+			sourceTree = "<group>";
+		};
 		55A6EF6B1FF4C0DB00A771C7 /* mine */ = {
 			isa = PBXGroup;
 			children = (
 				55A6EF941FF4E43A00A771C7 /* iconfont-mima@2x.png */,
 				55A6EF931FF4E43A00A771C7 /* iconfont-shouji@2x.png */,
-				55A6EF8E1FF4DC4700A771C7 /* guanbifanhui.png */,
+				55A6EF8E1FF4DC4700A771C7 /* guanbifanhui@2x.png */,
 				55A6EF841FF4D32600A771C7 /* defaultuserface.jpg */,
 				55A6EF821FF4CAD400A771C7 /* setting@2x.png */,
 				55A6EF6C1FF4C0DB00A771C7 /* ksap.png */,
@@ -176,6 +319,8 @@
 		55A6EF801FF4C89200A771C7 /* public */ = {
 			isa = PBXGroup;
 			children = (
+				551D27091FF6174D00CD41EE /* CYErrorType.h */,
+				551D27071FF6174100CD41EE /* CYErrorType.m */,
 				55A6EF911FF4E33500A771C7 /* CYButton.h */,
 				55A6EF901FF4E33500A771C7 /* CYButton.m */,
 				55A6EF811FF4C89C00A771C7 /* PublicVarible.h */,
@@ -199,6 +344,14 @@
 				55F3E7181FF4B36200640B99 /* MineController.m */,
 				55A6EF8B1FF4D6A200A771C7 /* LoginController.h */,
 				55A6EF8C1FF4D6A200A771C7 /* LoginController.m */,
+				551D26B91FF5D8F700CD41EE /* RigisterController.h */,
+				551D26BA1FF5D8F700CD41EE /* RigisterController.m */,
+				551D26BC1FF5ECA200CD41EE /* SettingController.h */,
+				551D26BD1FF5ECA200CD41EE /* SettingController.m */,
+				551D26BF1FF5ED2300CD41EE /* PersonalInfoController.h */,
+				551D26C01FF5ED2300CD41EE /* PersonalInfoController.m */,
+				551D26C21FF5FF7F00CD41EE /* RegisterFaceController.h */,
+				551D26C31FF5FF7F00CD41EE /* RegisterFaceController.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -206,6 +359,8 @@
 		55A6EF971FF4E70800A771C7 /* vandor */ = {
 			isa = PBXGroup;
 			children = (
+				551D270C1FF6201700CD41EE /* ELAlertView */,
+				551D26DB1FF6062D00CD41EE /* PureCamera */,
 				55A6EF981FF4E70800A771C7 /* MMProgressHUD */,
 			);
 			path = vandor;
@@ -287,6 +442,14 @@
 		55F3E6DC1FF49C0500640B99 /* category */ = {
 			isa = PBXGroup;
 			children = (
+				551D26CA1FF6010900CD41EE /* UIImage+Custom.h */,
+				551D26C91FF6010900CD41EE /* UIImage+Custom.m */,
+				551D26C81FF6010900CD41EE /* UIImage+ReByte.h */,
+				551D26CD1FF6010A00CD41EE /* UIImage+ReByte.m */,
+				551D26CB1FF6010900CD41EE /* UILabel+AdapWidth.h */,
+				551D26CC1FF6010900CD41EE /* UILabel+AdapWidth.m */,
+				551D26C51FF600FE00CD41EE /* NSData+Base64.h */,
+				551D26C61FF600FE00CD41EE /* NSData+Base64.m */,
 				55A6EFA21FF4E79800A771C7 /* MBProgressHUD+Add.h */,
 				55A6EFA11FF4E79800A771C7 /* MBProgressHUD+Add.m */,
 			);
@@ -366,6 +529,7 @@
 		55F3E6F61FF49EC200640B99 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				551D26D11FF6033D00CD41EE /* base */,
 				55A6EF6B1FF4C0DB00A771C7 /* mine */,
 				55F3E6F71FF49EC200640B99 /* tabbaricon */,
 			);
@@ -461,11 +625,15 @@
 				55F3E6CB1FF4959600640B99 /* Assets.xcassets in Resources */,
 				55F3E6C91FF4959600640B99 /* Main.storyboard in Resources */,
 				55F3E7061FF49F2B00640B99 /* wdkc1@2x.png in Resources */,
+				551D26D31FF6033D00CD41EE /* baseback@2x.png in Resources */,
+				551D26DA1FF6051300CD41EE /* blank.png in Resources */,
 				55F3E7071FF49F2B00640B99 /* zxcs1@2x.png in Resources */,
 				55F3E7121FF4B32000640B99 /* AllCourse.storyboard in Resources */,
 				55A6EF951FF4E43A00A771C7 /* iconfont-shouji@2x.png in Resources */,
+				551D27031FF6062D00CD41EE /* TOCropViewControllerLocalizable.strings in Resources */,
 				55F3E7011FF49F2B00640B99 /* zxcs2@2x.png in Resources */,
 				55F3E7141FF4B33200640B99 /* MyCourse.storyboard in Resources */,
+				551D270B1FF61B9900CD41EE /* came2.png in Resources */,
 				55A6EF7E1FF4C0DB00A771C7 /* wysc.png in Resources */,
 				55A6EF831FF4CAD500A771C7 /* setting@2x.png in Resources */,
 				55F3E7031FF49F2B00640B99 /* qbkc2@2x.png in Resources */,
@@ -481,10 +649,11 @@
 				55A6EF7B1FF4C0DB00A771C7 /* wdsc.png in Resources */,
 				55A6EF851FF4D32600A771C7 /* defaultuserface.jpg in Resources */,
 				55A6EF791FF4C0DB00A771C7 /* top.png in Resources */,
-				55A6EF8F1FF4DC4700A771C7 /* guanbifanhui.png in Resources */,
+				55A6EF8F1FF4DC4700A771C7 /* guanbifanhui@2x.png in Resources */,
 				55A6EF961FF4E43A00A771C7 /* iconfont-mima@2x.png in Resources */,
 				55F3E7001FF49F2B00640B99 /* wdkc2@2x.png in Resources */,
 				55F3E7051FF49F2B00640B99 /* wd2@2x.png in Resources */,
+				551D26FA1FF6062D00CD41EE /* PureCamera.bundle in Resources */,
 				55A6EF7D1FF4C0DB00A771C7 /* wdwd.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -544,24 +713,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551D27081FF6174100CD41EE /* CYErrorType.m in Sources */,
 				55F3E70B1FF4A47E00640B99 /* CYApi.m in Sources */,
+				551D26C41FF5FF7F00CD41EE /* RegisterFaceController.m in Sources */,
+				551D26CE1FF6010A00CD41EE /* UIImage+Custom.m in Sources */,
 				55F3E70E1FF4B26900640B99 /* CYBaseViewController.m in Sources */,
+				551D26FB1FF6062D00CD41EE /* PureCamera.m in Sources */,
+				551D26FD1FF6062D00CD41EE /* TOCropOverlayView.m in Sources */,
+				551D27001FF6062D00CD41EE /* TOCropToolbar.m in Sources */,
+				551D27131FF6201700CD41EE /* ELAlertView.m in Sources */,
 				55F3E71F1FF4B3B400640B99 /* MycourseController.m in Sources */,
 				55F3E6E81FF49D2C00640B99 /* CYRootController.m in Sources */,
 				55F3E6DA1FF4967500640B99 /* AppDelegate.m in Sources */,
+				551D26BB1FF5D8F700CD41EE /* RigisterController.m in Sources */,
 				55A6EF8D1FF4D6A200A771C7 /* LoginController.m in Sources */,
 				55F3E6EE1FF49DB200640B99 /* CYMYCourseBaseController.m in Sources */,
+				551D27151FF6201700CD41EE /* UIView+HitTestEdgeInsets.m in Sources */,
 				55A6EF9B1FF4E74E00A771C7 /* MBProgressHUD.m in Sources */,
 				55F3E6F11FF49DDE00640B99 /* CYExamBaseController.m in Sources */,
+				551D26F81FF6062D00CD41EE /* LLSimpleCamera+Helper.m in Sources */,
+				551D26FE1FF6062D00CD41EE /* TOCroppedImageAttributes.m in Sources */,
+				551D26CF1FF6010A00CD41EE /* UILabel+AdapWidth.m in Sources */,
+				551D27141FF6201700CD41EE /* NYAlertView.m in Sources */,
 				55F3E7221FF4B3C400640B99 /* AllCourseController.m in Sources */,
 				55A6EF8A1FF4D5EB00A771C7 /* UserInfoModel.m in Sources */,
+				551D27051FF6062D00CD41EE /* UIImage+CropRotate.m in Sources */,
 				55F3E6D11FF4959600640B99 /* main.m in Sources */,
 				55F3E6F41FF49DFA00640B99 /* CYMyInfoBaseController.m in Sources */,
 				55A6EFA31FF4E79900A771C7 /* MBProgressHUD+Add.m in Sources */,
 				55F3E7191FF4B36200640B99 /* MineController.m in Sources */,
 				55A6EF921FF4E33500A771C7 /* CYButton.m in Sources */,
+				551D26C71FF600FF00CD41EE /* NSData+Base64.m in Sources */,
+				551D27041FF6062D00CD41EE /* TOCropViewControllerTransitioning.m in Sources */,
+				551D26F91FF6062D00CD41EE /* LLSimpleCamera.m in Sources */,
+				551D26FC1FF6062D00CD41EE /* TOActivityCroppedImageProvider.m in Sources */,
 				55F3E6EB1FF49D9800640B99 /* CYAllCourseBaseController.m in Sources */,
+				551D27061FF6062D00CD41EE /* UIImage+FixOrientation.m in Sources */,
+				551D26D01FF6010A00CD41EE /* UIImage+ReByte.m in Sources */,
+				551D26FF1FF6062D00CD41EE /* TOCropScrollView.m in Sources */,
+				551D27011FF6062D00CD41EE /* TOCropView.m in Sources */,
+				551D26C11FF5ED2300CD41EE /* PersonalInfoController.m in Sources */,
 				55F3E71C1FF4B3A300640B99 /* ExamController.m in Sources */,
+				551D26BE1FF5ECA200CD41EE /* SettingController.m in Sources */,
+				551D27021FF6062D00CD41EE /* TOCropViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
